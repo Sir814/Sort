@@ -14,10 +14,10 @@ function f1(arr) {
             if (arr[i] > arr[j]) {
                 maxIndex = j
             }
-            let temp = arr[i]
-            arr[i] = arr[maxIndex]
-            arr[maxIndex] = temp
         }
+      let temp = arr[i]
+      arr[i] = arr[maxIndex]
+      arr[maxIndex] = temp
     }
     return arr;
 }
