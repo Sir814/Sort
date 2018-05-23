@@ -1,2 +1,2 @@
 # Sort
-JavaScript ten sorting method source code and principles introduced.
+JavaScript ten sorting method source code and principles introduced..
