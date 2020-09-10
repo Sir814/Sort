@@ -11,7 +11,7 @@ function f1(arr) {
     for (let i = 0, len = arr.length - 1; i < len; i++) {
         let maxIndex = i;
         for (let j = i + 1, len = arr.length; j < len; j++) {
-            if (arr[i] > arr[j]) {
+            if (arr[maxIndex] > arr[j]) {
                 maxIndex = j
             }
         }
